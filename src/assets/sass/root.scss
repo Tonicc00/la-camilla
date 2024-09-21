@@ -257,7 +257,7 @@
         border: none;
         display: block;
         position: absolute;
-        top: 15%;
+        top: 27%;
         right: calc(70 / 16 * 1rem);
         z-index: 1000;
         overflow: hidden;
@@ -954,28 +954,28 @@
 }
 
 /* Dark Mode */
-// @media only screen and (min-width: 64rem) {
-//     body.dark-mode {
-//         #cs-navigation {
-//             background-color: var(--dark);
+@media only screen and (min-width: 64rem) {
+    body.dark-mode {
+        #cs-navigation {
+            background-color: var(--dark);
 
-//             .cs-logo {
-//                 /* makes it turn white */
-//                 filter: grayscale(1) brightness(1000%);
-//             }
+            .cs-logo {
+                /* makes it turn white */
+                filter: grayscale(1) brightness(1000%);
+            }
 
-//             .cs-li-link {
-//                 color: var(--bodyTextColorWhite);
-//             }
+            .cs-li-link {
+                color: var(--bodyTextColorWhite);
+            }
 
-//             .cs-li-link {
-//                 &:before {
-//                     background-color: var(--primaryLight);
-//                 }
-//             }
-//         }
-//     }
-// }
+            .cs-li-link {
+                &:before {
+                    background-color: var(--primaryLight);
+                }
+            }
+        }
+    }
+}
 
 /*-- -------------------------- -->
 <---   Interior Page Header     -->
